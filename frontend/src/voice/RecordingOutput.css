@@ -1,0 +1,32 @@
+.voice_recordings_container{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;;
+        padding: 20px !important ;
+        height: 200px;
+        width: 500px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.voiceRecoring_icons{
+    background: linear-gradient(45deg, #8e4cff, #5349ff);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin: 20px 0 10px 5px;
+
+}
+.voiceRecoring_detete_icons{
+background: rgb(255, 63, 63);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin: 0 5px;
+}
+.voiceRecoring_timer_icons{color: #5349ff;}

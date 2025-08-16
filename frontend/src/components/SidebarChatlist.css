@@ -1,0 +1,79 @@
+.chat_heading h3{font-weight: 600; color: var(--text-color);}
+.add_chat{display: flex; justify-content: right; align-items: center;}
+.add_chat button{
+    background: linear-gradient(45deg, #8e4cff, #5349ff);
+    width: 30px;
+    border: none;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    color: #fff;
+}
+.groupOrsingle ul{list-style-type: none; padding: 0; margin-top: 10px;}
+.groupOrsingle ul li{list-style-type: none; display: inline-block;}
+.groupOrsingle ul li a{text-decoration: none; color: gray; padding-right: 20px; transition: .1s ease-in-out;}
+.groupOrsingle ul li a:hover{color: var(--dark-text);}
+.invite_frm_btn{background: linear-gradient(45deg, #8e4cff, #5349ff); padding: 10px 0; color: #fff; border: none; border-radius: 5px; transition: .3s ease-in-out;}
+.invite_frm_btn:hover{background: linear-gradient(45deg, #5349ff,#8e4cff);}
+.chatContact {
+  transition: background 0.3s ease;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #ffffff2b;
+  border: .1px solid #ffffffcb;
+  backdrop-filter: blur(20px);
+}
+
+.chatContact:hover {
+  background: #26163dbd;
+}
+
+.chatContact_profile {
+  background: linear-gradient(45deg, #8e4cff, #5349ff);
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.chatContact_profile i{font-size: 22px;}
+
+.chatContact_name_msgs{overflow-x: hidden;}
+.chatContact_name_msgs .name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  color:#f9f5ff
+
+}
+
+.chatContact_name_msgs .message {
+  font-size: 14px;
+  color: #a4a4a4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.3s ease;
+padding: 0 !important;
+
+}
+
+.chatContact_time_count .time {
+  font-size: 12px;
+  color: #999;
+}
+
+.chatContact_time_count .badge {
+  font-size: 12px;
+  padding: 3px 6px;
+}
+
+.chatContact:hover .chatContact_name_msgs .name{color: #fff;}
+.chatContact:hover .chatContact_name_msgs .message{color: #eeeeee;}

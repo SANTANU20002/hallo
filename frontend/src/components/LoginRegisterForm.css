@@ -1,0 +1,64 @@
+.card {
+  border-radius: 15px;
+  background-color: #ff00002f;
+  backdrop-filter: blur(10px);
+  border: .1px solid #ffffffd1;
+  /* box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff; */
+}
+
+.btn-primary {
+  background-color: #442e9c;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #442e9c;
+}
+
+.btn-outline-primary {
+  border-color: #442e9c;
+  color: #442e9c;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e3f2fd;
+}
+
+.btn-group .btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.custom-textfield .MuiInputBase-root {
+  background-color: #0c021f79;
+  border-radius: 8px;
+}
+
+.custom-textfield .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffffce !important;
+}
+
+.custom-textfield:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.custom-textfield .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+  border-width: 2px;
+}
+
+.custom-textfield .MuiInputBase-input {
+  color: #ffffff;
+}
+
+.custom-textfield .MuiInputLabel-root {
+  color: #ffffffcc;
+}
+
+.custom-textfield .MuiInputLabel-root.Mui-focused {
+  color: #ffffff;
+}
+.css-53g0n7-MuiButtonBase-root-MuiIconButton-root{
+  color: #fff !important;
+}

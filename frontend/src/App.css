@@ -1,0 +1,65 @@
+:root{
+  --bg-color: #0e0121;
+   --sec-bg-color: #0f061d;
+  --text-color: #f0e9ff;
+  --dark-text: #812dff;
+  --theam-color: linear-gradient(45deg, #8e4cff, #5349ff);
+}
+.chat_main-container{
+  height: 100vh;
+  overflow: hidden;
+}
+.chatscreen{height: 100vh;}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+.loader_body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 2, 21);
+}
+.loader {
+  height: 4px;
+  width: 600px;
+  background: rgb(44, 44, 44);
+  position: relative;
+  overflow: hidden;
+}
+.loader .black_overlay {
+  background: linear-gradient(
+    87deg,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.14) 30%,
+    rgba(0, 0, 0, 0.14) 70%,
+    rgb(0, 0, 0) 100%
+  );
+  position: absolute;
+  inset: 0px;
+}
+.loader .light {
+  width: 70px;
+  height: 100%;
+  position: absolute;
+  left: -20%;
+  top: 0px;
+  background: linear-gradient(
+    87deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(138, 70, 255) 40%,
+    rgb(138, 70, 255) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  animation: light 2s infinite ease-in-out;
+}
+
+@keyframes light {
+  from {
+    left: -30%;
+  }
+  to {
+    left: 100%;
+  }
+}

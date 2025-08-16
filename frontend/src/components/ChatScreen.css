@@ -1,0 +1,4 @@
+.chatscreen{background-color: var(--sec-bg-color); position: relative;}
+.default_chat_container{background-color: var(--sec-bg-color); color: var(--text-color);}
+
+.default_chat_container p{font-size: 26px; font-weight: 600; transform: translateY(-50px);}

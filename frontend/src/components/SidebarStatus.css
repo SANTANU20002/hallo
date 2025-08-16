@@ -1,0 +1,7 @@
+.Calllist_call a{
+    font-size: 20px !important;
+    background: linear-gradient(45deg, #8e4cff, #5349ff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+          color: transparent; }

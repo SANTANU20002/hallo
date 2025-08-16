@@ -1,0 +1,40 @@
+.sidebar_hearer {
+    background-color: var(--bg-color);
+    padding: 2px 0 3px 0;
+    /* margin-top: 5px; */
+    box-shadow: 0 5px 10px -8px rgba(100, 39, 255, 0.852);
+
+}
+.css-7ax0nd-MuiBottomNavigation-root{background: transparent !important;}
+.sidebar_hearer ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.sidebar_hearer ul li a {
+    color: rgb(152, 152, 152);
+    font-size: 22px;
+    position: relative;
+}
+.sidebar_hearer ul li a:hover{
+    background: linear-gradient(45deg, #8e4cff, #5349ff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+          color: transparent; 
+}
+
+.active{
+    background: linear-gradient(45deg, #8e4cff, #5349ff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+          color: transparent; 
+}
+.sidebar_hearer ul li a img{height: 30px;}
+.badge_notification_count {
+    color: red;
+    
+}
+.css-hl61bb-MuiAvatar-root{font-size: 16px !important; font-weight: 600;}

@@ -1,0 +1,51 @@
+.profile-card {
+      max-width: 340px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f2eeff30;
+      backdrop-filter: blur(15px);
+      border: 1px solid #f9f7ff;
+      border-radius: 10px;
+      position: fixed;
+      left: 10px;
+      top: 50px;
+      z-index: 900;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .profile_close{position: absolute; right: 3px; top: 10px}
+     .profile_close button{color: rgb(255, 55, 55); transition: .4s;}
+    .profile_close button:hover{background: transparent; transform: rotate(90deg);}
+    .profile-card_img{
+
+      margin-bottom: 0 auto 20px auto;
+    }
+    .profile-card .edit-icon svg {
+      cursor: pointer;
+      
+      font-size: 20px !important;
+      color: #8e4cff;
+    }
+    .profile-card .info-label, .profile-card .info-label h6 {
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .profile-card .info-value {
+        font-weight: 400 !important;
+      margin-bottom: 10px;
+    }
+    .profile-card .btn-logout {
+      background-color: #e64f5f;
+      color: white;
+      width: 100%;
+      margin-top: 20px;
+    }
+    .profile-card .logout-note {
+      font-size: 0.9em;
+      color: var(--text-color);
+    }
+    @media (max-width: 576px) {
+      .profile-card {
+        max-width: 100%;
+        margin: 10px;
+      }
+    }
